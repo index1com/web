@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 4 semestres de TIC'S</title>
+
+    <style>
+
+        /* ====== ESTILO GENERAL ====== */
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        /* ====== ENCABEZADO ====== */
+
+        .encabezado{
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('imagenes/portada.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 5px solid #38bdf8;
+        }
+
+        .encabezado h1{
+            font-size: 60px;
+            color: #ffffff;
+            text-shadow: 4px 4px 10px black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            letter-spacing: 3px;
+        }
+
+        /* ====== INTRODUCCIÓN ====== */
+
+        .intro{
+            width: 90%;
+            margin: auto;
+            margin-top: 40px;
+            background-color: rgba(255,255,255,0.08);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px black;
+            text-align: center;
+        }
+
+        .intro h2{
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #38bdf8;
+        }
+
+        .intro p{
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+        /* ====== TARJETAS ====== */
+
+        .contenedor{
+            width: 95%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .tarjeta{
+            width: 420px;
+            background-color: rgba(255,255,255,0.10);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: 0.5s;
+            box-shadow: 0px 0px 15px black;
+        }
+
+        .tarjeta:hover{
+            transform: scale(1.03);
+            box-shadow: 0px 0px 25px #38bdf8;
+        }
+
+        .tarjeta img{
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .contenido{
+            padding: 20px;
+        }
+
+        .contenido h3{
+            font-size: 30px;
+            margin-bottom: 15px;
+            color: #38bdf8;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .contenido h4{
+            font-size: 22px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            color: #facc15;
+        }
+
+        .contenido p{
+            font-size: 18px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        /* ====== FRASE ====== */
+
+        .frase{
+            width: 90%;
+            margin: auto;
+            margin-bottom: 40px;
+            padding: 30px;
+            text-align: center;
+            background-color: rgba(0,0,0,0.4);
+            border-left: 8px solid #38bdf8;
+            border-radius: 15px;
+        }
+
+        .frase h2{
+            font-size: 35px;
+            color: #f8fafc;
+            font-style: italic;
+        }
+
+        /* ====== PIE DE PAGINA ====== */
+
+        footer{
+            background-color: #020617;
+            padding: 25px;
+            text-align: center;
+            border-top: 4px solid #38bdf8;
+        }
+
+        footer p{
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        /* ====== RESPONSIVE ====== */
+
+        @media(max-width:900px){
+
+            .encabezado h1{
+                font-size: 40px;
+            }
+
+            .tarjeta{
+                width: 95%;
+            }
+
+            .intro p{
+                font-size: 18px;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- ====== ENCABEZADO ====== -->
+
+    <div class="encabezado">
+
+        <h1>MIS 4 SEMESTRES DE TIC'S</h1>
+
+    </div>
+
+    <!-- ====== INTRODUCCIÓN ====== -->
+
+    <div class="intro">
+
+        <h2>Mi experiencia en el área de TIC'S</h2>
+
+        <p>
+            Durante estos cuatro semestres en el área de Tecnologías de la Información y la Comunicación
+            he aprendido diferentes habilidades relacionadas con la informática, programación, diseño digital,
+            páginas web, redes de cómputo y sistemas de información.  
+            Esta página representa mi crecimiento académico y algunos de los temas más importantes que
+            desarrollé en cada semestre.
+        </p>
+
+    </div>
+
+    <!-- ====== CONTENEDOR ====== -->
+
+    <div class="contenedor">
+
+        <!-- ====== TERCER SEMESTRE ====== -->
+
+        <div class="tarjeta">
+
+            <img src="misdocumentos/imagenes/tercer_semestre.jpg" alt="Tercer semestre">
+
+            <div class="contenido">
+
+                <h3>Tercer Semestre</h3>
+
+                <h4>Gestión de archivos de texto</h4>
+
+                <p>
+                    Aprendí a elaborar documentos profesionales utilizando herramientas digitales,
+                    aplicando formatos, tablas, imágenes y organización correcta de información.
+                </p>
+
+                <h4>Hoja de cálculo</h4>
+
+                <p>
+                    Desarrollé habilidades en fórmulas, funciones, gráficas y organización de datos
+                    mediante hojas de cálculo para resolver problemas matemáticos y administrativos.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ====== CUARTO SEMESTRE ====== -->
+
+        <div class="tarjeta">
+
+            <img src="misdocumentos/imagenes/cuarto_semestre.jpg" alt="Cuarto semestre">
+
+            <div class="contenido">
+
+                <h3>Cuarto Semestre</h3>
+
+                <h4>Comunidades virtuales</h4>
+
+                <p>
+                    Comprendí la importancia de la comunicación digital, las redes sociales,
+                    la colaboración en línea y el uso responsable de plataformas virtuales.
+                </p>
+
+                <h4>Mantenimiento y redes de cómputo</h4>
+
+                <p>
+                    Aprendí el funcionamiento básico de computadoras, mantenimiento preventivo
+                    y correctivo, además de conceptos relacionados con redes e internet.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ====== QUINTO SEMESTRE ====== -->
+
+        <div class="tarjeta">
+
+            <img src="misdocumentos/imagenes/quinto_semestre.jpg" alt="Quinto semestre">
+
+            <div class="contenido">
+
+                <h3>Quinto Semestre</h3>
+
+                <h4>Sistemas de información</h4>
+
+                <p>
+                    Estudié cómo las empresas organizan y administran información utilizando
+                    herramientas digitales y bases de datos.
+                </p>
+
+                <h4>Programación</h4>
+
+                <p>
+                    Aprendí lógica de programación, creación de algoritmos y desarrollo de códigos
+                    utilizando diferentes estructuras y lenguajes básicos.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ====== SEXTO SEMESTRE ====== -->
+
+        <div class="tarjeta">
+
+            <img src="misdocumentos/imagenes/sexto_semestre.jpg" alt="Sexto semestre">
+
+            <div class="contenido">
+
+                <h3>Sexto Semestre</h3>
+
+                <h4>Páginas web</h4>
+
+                <p>
+                    Aprendí a desarrollar sitios web utilizando HTML y CSS, creando páginas modernas,
+                    organizadas y visualmente atractivas.
+                </p>
+
+                <h4>Diseño digital</h4>
+
+                <p>
+                    Desarrollé creatividad mediante el uso de herramientas de diseño gráfico,
+                    edición de imágenes y elaboración de contenido visual.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ====== FRASE ====== -->
+
+    <div class="frase">
+
+        <h2>
+            “La tecnología transforma ideas en realidades y el aprendizaje en oportunidades.”
+        </h2>
+
+    </div>
+
+    <!-- ====== PIE DE PÁGINA ====== -->
+
+    <footer>
+
+        <p>
+            Página creada por: Adrian Dominguez Zato | 2026
+        </p>
+
+    </footer>
+
+</body>
+</html>
